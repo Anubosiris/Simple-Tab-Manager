@@ -103,5 +103,11 @@ dist
 # TernJS port file
 .tern-port
 
-#package-configuration
+# Package-Configuration
 package-lock.json
+
+# IDEs
+.vscode/
+
+# Web-Ext Output
+web-ext-artifacts/

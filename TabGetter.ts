@@ -24,7 +24,6 @@ const tabGetter = {
                     newHTML += "<tr><td>" + tab[i].url + "</td></tr>";
                 }
             }
-            //console.log(newHTML);
             document.getElementById("tabtable").innerHTML = newHTML;
         });
     },
@@ -44,6 +43,7 @@ const tabGetter = {
             //Firefox
             await navigator.clipboard.readText().then(content => {
                 this.lineStringToTabs(content);
+                window.close()
             }).catch(err => {
                 console.error("Unable to read clipboard", err);
                 alert("Failed to read clipboard, check the extension's permissions.");
