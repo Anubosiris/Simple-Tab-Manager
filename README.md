@@ -1,2 +1,2 @@
-# Simple-Tab-Manager
-A simple web extension which you can descripe as tab-to-URL-converter (and backwards)
+# THIS REPO HAS BEEN MOVED  :)
+The new repo can be found at https://github.com/Develaupair/simple-tab-manager
